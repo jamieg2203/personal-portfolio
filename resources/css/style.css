@@ -1,0 +1,45 @@
+html {
+    color: white;
+}
+
+
+body {
+    background-image: url("../media/20200530_150619.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-blend-mode:multiply;
+    background-color: #0a0a0a;
+    margin: 0;
+}
+
+#grid-header {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15rem auto auto auto 15rem;
+    grid-template-areas: "social logo nav";
+}
+
+#logo {
+    grid-area: logo;
+    height: 15rem;
+    width: auto;
+}
+
+.social {
+    grid-area: social;
+}
+
+.nav-bar {
+    grid-area: nav;
+}
+
+header {
+    grid-area: hd;
+    font-size: 2rem;
+    
+}
+
