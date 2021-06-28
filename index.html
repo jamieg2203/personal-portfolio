@@ -4,26 +4,50 @@
 <head>
     <title></title>
     <link href="./resources/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-
-    <header>
-        <div id="grid-header"></div>
-        <div class="social">Social</div>
+    <header class="flex-header">
+        <div class="social">
+            <img src="https://img.icons8.com/ios-glyphs/60/ffffff/facebook-new.png" />
+            <img src="https://img.icons8.com/ios-glyphs/60/ffffff/instagram-new.png" />
+            <img src="https://img.icons8.com/ios-glyphs/60/ffffff/github.png" />
+        </div>
         <img src="./resources/media/logo.png" alt="logo" id="logo">
         <nav class="nav-bar">
             <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Services</li>
-                <li>Portfolio</li>
+                <li><a href="index.html">Home</a></li>
+                <li class="vertical-border"><a href="#about">About Me</a></li>
+                <li class="vertical-border"><a href="#services">Services</a></li>
+                <li class="vertical-border"><a href="#portfolio">Portfolio</a></li>
             </ul>
         </nav>
-        </div>
     </header>
     <main>
-
+        <div class="grid">
+            <section class="banner">
+                <img src="resources/media/jamie3.png" alt="jamie" id="jamie">
+                <h1 class="banner-text">I'am a Full Stack Developer</h1>
+                <p class="intro">Full Stack Web and Software Developer
+                    <br> Based in Manchester UK
+                </p>
+            </section>
+            <section class="about bg-img img2">
+                <div class="about-me">
+                    About Me
+                </div>
+                <div class="skills">
+                    Skills
+                </div>
+            </section>
+            <section class="portfolio">
+                Portfolio
+            </section>
+        </div>
     </main>
     <footer>
 
