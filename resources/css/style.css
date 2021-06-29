@@ -125,6 +125,10 @@ a:hover {
     padding: 2.5rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 #about {
     font-size: 2rem;
     grid-area: about;
@@ -137,11 +141,10 @@ a:hover {
 }
 
 .about-me {
-    flex: 1;
     text-align: center;
     padding: 3rem;
+    width: 50%;
     border-right: white solid 0.2rem;
-    margin: 1.8rem;
 }
 
 .about-me p {
@@ -151,10 +154,9 @@ a:hover {
 }
 
 .skills {
-    flex: 1;
     text-align: center;
     padding: 3rem;
-    margin: 1.8rem;
+    width: 50%;
 }
 
 #coding-flexbox {
@@ -226,21 +228,6 @@ a:hover {
         max-width: 42vw;
         max-height: 42vh;
     }
-    .about-me {
-        padding: 2.5rem;
-        border-right: white solid 0.2rem;
-        margin: 1.5rem;
-    }
-    
-    .about-me p {
-        margin: 1.5rem;
-        padding: 1.25rem;
-    }
-    
-    .skills {
-        padding: 2.5rem;
-        margin: 1.5rem;
-    }
 }
 
 @media screen and (max-width: 1410px) {
@@ -288,21 +275,6 @@ a:hover {
     .flex-header .social {
         display: none;
     }
-    .about-me {
-        padding: 2.25rem;
-        border-right: white solid 0.2rem;
-        margin: 1.4rem;
-    }
-    
-    .about-me p {
-        margin: 1.25rem;
-        padding: 1rem;
-    }
-    
-    .skills {
-        padding: 2.25rem;
-        margin: 1.4rem;
-    }
     .footer .social img {
         width: 25px;
         height: 25px;
@@ -331,9 +303,37 @@ a:hover {
     .banner-text {
         font-size: 3rem;
     }
+    .about-me {
+        padding: 1rem;
+        border-right: none;
+        margin: 0.5rem;
+        width: 100%;
+    }
+    
+    .about-me p {
+        margin: 1em;
+        padding: 0.5rem;
+    }
+    
+    .skills {
+        padding: 0.5rem;
+        margin: 0.5rem;
+        width: 100%;
+    }
+    .skills img {
+        width: 3rem;
+        height: auto;
+    }
+
+    .coding-item {
+        width: 10%;
+    }
 }
 
 @media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
     #jamie {
         height: auto;
         width: 7rem;
@@ -359,6 +359,9 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
+    html {
+        font-size: 9px;
+    }
     #jamie {
         height: auto;
         width: 6rem;
@@ -374,9 +377,31 @@ a:hover {
     .banner-text {
         font-size: 2.25rem;
     }
+    .about-me {
+        padding: 1rem;
+        border-right: none;
+        margin: 0.5rem;
+    }
+    
+    .about-me p {
+        margin: 1em;
+        padding: 0.5rem;
+    }
+    
+    .skills {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    .footer .social img {
+        width: 25px;
+        height: 25px;
+    }
 }
 
 @media screen and (max-width: 350px) {
+    html {
+        font-size: 8px;
+    }
     #jamie {
         height: auto;
         width: 6rem;
