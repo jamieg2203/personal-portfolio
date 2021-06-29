@@ -17,6 +17,7 @@ body {
     background-position-y: center;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .bg-img {
@@ -119,7 +120,7 @@ a:hover {
     font-weight: bold;
     border-top: 0.5rem #EFC757 solid;
     border-bottom: 0.5rem #EFC757 solid;
-    width: 50rem;
+    width: 50vw;
     margin: 0 auto;
     padding: 2.5rem;
 }
@@ -140,20 +141,20 @@ a:hover {
     text-align: center;
     padding: 3rem;
     border-right: white solid 0.2rem;
-    margin: 2rem;
+    margin: 1.8rem;
 }
 
 .about-me p {
     margin: 1.5rem;
     font-size: 1.5rem;
+    padding: 1.4rem;
 }
 
 .skills {
     flex: 1;
     text-align: center;
     padding: 3rem;
-    width: 50%;
-    margin: 2rem;
+    margin: 1.8rem;
 }
 
 #coding-flexbox {
@@ -197,7 +198,7 @@ a:hover {
 }
 
 .portfolio-item img {
-    max-width: 40w;
+    max-width: 40vw;
     max-height: 50vh;
 }
 .footer {
@@ -205,6 +206,11 @@ a:hover {
     width: 100%;
     text-align: center;
     font-size: 1.5rem;   
+}
+
+.footer .social img {
+    width: 50px;
+    height: 50px;
 }
 
 .footer p {
@@ -215,6 +221,25 @@ a:hover {
 @media screen and (max-width: 1650px) {
     html {
         font-size: 15px;
+    }
+    .portfolio-item img {
+        max-width: 42vw;
+        max-height: 42vh;
+    }
+    .about-me {
+        padding: 2.5rem;
+        border-right: white solid 0.2rem;
+        margin: 1.5rem;
+    }
+    
+    .about-me p {
+        margin: 1.5rem;
+        padding: 1.25rem;
+    }
+    
+    .skills {
+        padding: 2.5rem;
+        margin: 1.5rem;
     }
 }
 
@@ -227,6 +252,10 @@ a:hover {
         width: 119px;
         height: 119px;
     }
+    .portfolio-item img {
+        max-width: 35vw;
+        max-height: 40vh;
+    }
 }
 
 @media screen and (max-width: 1350px) {
@@ -234,6 +263,7 @@ a:hover {
         width: 100px;
         height: 100px;
     }
+}
 }
 
 @media screen and (max-width: 1130px) {
@@ -245,10 +275,139 @@ a:hover {
         width: 70px;
         height: 70px;
     }
+    .footer .social img {
+        width: 45px;
+        height: 45px;
+    }
 }
 
 @media screen and (max-width: 1000px) { 
+    html {
+        font-size: 12px;
+    }
     .flex-header .social {
         display: none;
+    }
+    .about-me {
+        padding: 2.25rem;
+        border-right: white solid 0.2rem;
+        margin: 1.4rem;
+    }
+    
+    .about-me p {
+        margin: 1.25rem;
+        padding: 1rem;
+    }
+    
+    .skills {
+        padding: 2.25rem;
+        margin: 1.4rem;
+    }
+    .footer .social img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    #jamie {
+        height: auto;
+        width: 8rem;
+        border-radius: 90px;
+        margin: 3rem;
+    }
+
+    .intro {
+        font-size: 2rem;
+        margin: 1.5rem;
+    }
+
+    .banner-text {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #jamie {
+        height: auto;
+        width: 7rem;
+        border-radius: 90px;
+        margin: 3rem;
+    }
+
+    .intro {
+        font-size: 1.8rem;
+        margin: 1.5rem;
+    }
+
+    .banner-text {
+        font-size: 2.75rem;
+    }
+    .vertical-border {
+        border-left: none;
+    }
+    .flex-header #logo {
+        height: 90%;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #jamie {
+        height: auto;
+        width: 6rem;
+        border-radius: 90px;
+        margin: 3rem;
+    }
+
+    .intro {
+        font-size: 1.5rem;
+        margin: 1.5rem;
+    }
+
+    .banner-text {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #jamie {
+        height: auto;
+        width: 6rem;
+        border-radius: 90px;
+        margin: 6rem 3rem 3rem 3rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .banner-text {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #jamie {
+        height: auto;
+        width: 6rem;
+        border-radius: 90px;
+        margin: 7rem 3rem 3rem 3rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .banner-text {
+        font-size: 1.5rem;
     }
 }
