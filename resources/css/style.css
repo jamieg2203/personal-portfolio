@@ -115,7 +115,7 @@ a:hover {
     margin: 2rem;
 }
 
-.banner-text {
+#bannerText {
     font-size: 4rem;
     font-weight: bold;
     border-top: 0.5rem #EFC757 solid;
@@ -251,7 +251,6 @@ h2 {
         height: 100px;
     }
 }
-}
 
 @media screen and (max-width: 1130px) {
     html {
@@ -300,7 +299,7 @@ h2 {
         margin: 1.5rem;
     }
 
-    .banner-text {
+    #bannerText {
         font-size: 3rem;
     }
     .about-me {
@@ -346,7 +345,7 @@ h2 {
         margin: 1.5rem;
     }
 
-    .banner-text {
+    #bannerText {
         font-size: 2.75rem;
     }
     .vertical-border {
@@ -374,7 +373,7 @@ h2 {
         margin: 1.5rem;
     }
 
-    .banner-text {
+    #bannerText {
         font-size: 2.25rem;
     }
     .about-me {
@@ -414,7 +413,7 @@ h2 {
         margin: 1rem;
     }
 
-    .banner-text {
+    #bannerText {
         font-size: 1.75rem;
     }
 }
@@ -432,7 +431,7 @@ h2 {
         margin: 1rem;
     }
 
-    .banner-text {
+    #bannerText {
         font-size: 1.5rem;
     }
 }
